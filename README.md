@@ -15,3 +15,14 @@
     pip install -r requirements.txt
     git commit -m "1. build a virtual environment with django 1.4.2"
     git push
+
+### 2. Creating a project
+
+    django-admin.py startproject mysite
+    cd mysite/
+    ./manage.py runserver $IP:$PORT
+    # test browsing http://tut14-sdoro.c9users.io/
+    git add . ../README.md
+    git git commit -m "Creating a project."
+    git push
+
