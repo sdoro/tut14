@@ -77,3 +77,9 @@
     git add polls/admin.py
     git commit -m "Make the poll app modifiable in the admin"
     git push
+
+### Customize the admin form
+
+    # edit polls/admin.py
+    git commit -m "Customize the admin form"
+    git push
