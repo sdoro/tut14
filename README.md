@@ -51,3 +51,10 @@
     ./manage.py suncdb
     git commit -m "Activating models"
     git push
+
+### Playing with the API
+
+    # To invoke the Python shell: ./manage.py shell
+    # edit polls/models.py
+    git commit -m "Playing with the API"
+    git push
