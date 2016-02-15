@@ -65,3 +65,15 @@
     # edit mysite/urls.py
     git commit -m "Activate the admin site"
     git push
+
+### Start the development server
+
+    ./manage.py runserver $IP:$PORT
+    # access to http://tut14-sdoro.c9users.io/admin/
+
+### Make the poll app modifiable in the admin
+
+    # create a file called polls/admin.py
+    git add polls/admin.py
+    git commit -m "Make the poll app modifiable in the admin"
+    git push
