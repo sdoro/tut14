@@ -89,3 +89,10 @@
     # edit polls/admin.py
     git commit -m "Adding related objects"
     git push
+
+### Customize the admin change list
+
+    # edit polls/admin.py
+    # edit polls/models.py
+    git commit -m "Customize the admin change list"
+    git push
