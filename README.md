@@ -58,3 +58,10 @@
     # edit polls/models.py
     git commit -m "Playing with the API"
     git push
+
+### Activate the admin site
+
+    # edit mysite/settings.py
+    # edit mysite/urls.py
+    git commit -m "Activate the admin site"
+    git push
