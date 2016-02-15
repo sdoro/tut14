@@ -43,3 +43,11 @@
     # edit polls/models.py
     git commit -m "Creating a models"
     git push
+
+### Activating models
+
+    # edit mysite/settings.py
+    ./manage.py sql polls
+    ./manage.py suncdb
+    git commit -m "Activating models"
+    git push
