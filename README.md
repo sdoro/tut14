@@ -83,3 +83,9 @@
     # edit polls/admin.py
     git commit -m "Customize the admin form"
     git push
+
+### Adding related objects
+
+    # edit polls/admin.py
+    git commit -m "Adding related objects"
+    git push
