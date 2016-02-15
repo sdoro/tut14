@@ -26,3 +26,12 @@
     git git commit -m "Creating a project."
     git push
 
+### Database setup
+
+    # edit mysite/settings.py
+    git add mysite/settings.py
+    ./manage.py syncdb
+    # set email/password to ubuntu@c9.io
+    git add db
+    git commit -m "Database setup"
+    git push
