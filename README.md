@@ -96,3 +96,10 @@
     # edit polls/models.py
     git commit -m "Customize the admin change list"
     git push
+
+## Customize the admin look and feel
+
+    mkdir /home/ubuntu/workspace/template
+    mkdir /home/ubuntu/workspace/template/admin
+    # edit mysite/settings.py
+    cp /home/ubuntu//.env/lib/python2.7/site-packages/django/contrib/admin/templates/admin/base_site.html /home/ubuntu/workspace/template/admin
