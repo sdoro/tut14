@@ -35,3 +35,11 @@
     git add db
     git commit -m "Database setup"
     git push
+
+### Creating a models
+
+    manage.py startapp polls
+    git add polls
+    # edit polls/models.py
+    git commit -m "Creating a models"
+    git push
