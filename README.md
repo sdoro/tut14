@@ -9,6 +9,7 @@
     
 ### 1. build a virtual environment with django 1.4.2
 
+    sudo pip install virtualenv
     virtualenv $HOME/.env
     source $HOME/.env/bin/activate
     git add requirements.txt
@@ -38,7 +39,7 @@
 
 ### Creating a models
 
-    manage.py startapp polls
+    ./manage.py startapp polls
     git add polls
     # edit polls/models.py
     git commit -m "Creating a models"
